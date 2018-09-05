@@ -11,8 +11,12 @@ fido = Dog.new
 fido.name = "Fido"
 
 def bark
-
+  @bark = dog_bark
+end
+def bark
+  @bark
+end
 end
 fido.bark = "Woof!"
 
-end
+
