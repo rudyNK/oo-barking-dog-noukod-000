@@ -12,4 +12,4 @@ fido.name = "Fido"
 def bark
   puts "Woof!"
 end
-
+fido.bark = "Woof!"
